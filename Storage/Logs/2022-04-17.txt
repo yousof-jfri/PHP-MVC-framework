@@ -1,0 +1,13 @@
+[17-Apr-2022 00:09:33 Europe/Berlin] <h1>Fatal Error</h1><p> Uncaught exception : 'Exception'</p>
+<p>Message : '404 NOT FOUND'</p>
+<p> Stack trace : <pre> #0 C:\xampp\htdocs\php_mvc\public\index.php(13): Core\Router->dispatch('seri2es/php-mvc...')
+#1 {main} </pre> </p>
+<p>thrown in 'C:\xampp\htdocs\php_mvc\Core\Router.php'</p>
+<p> On Line : ' 95' </p>
+
+[17-Apr-2022 00:09:33 Europe/Berlin] PHP Fatal error:  Uncaught Exception: ../App/Views/errors.notFound.php not found in C:\xampp\htdocs\php_mvc\Core\View.php:17
+Stack trace:
+#0 C:\xampp\htdocs\php_mvc\Core\Errors.php(57): Core\View::render('errors.notFound')
+#1 [internal function]: Core\Errors::exceptionHandler(Object(Exception))
+#2 {main}
+  thrown in C:\xampp\htdocs\php_mvc\Core\View.php on line 17
